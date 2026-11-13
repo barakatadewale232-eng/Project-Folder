@@ -1,24 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="style.css">
 
+    <title>My Personal Multimedia Gallery</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-<h1> Contact us</h1>
-<label for="name">Full Name</label>
-<input type="name"id="Full Name"placeholder ="Enter your full name"></label>
-<label for="name">Email</label>
-<input type="text" id="Email"placeholder ="Enter your email">
-<label for="name">Subject</label>
-<input type="text"id ="Subject"placeholder ="Enter your subject">
-<label for="name">Message</label>
-<textarea class="padding:50px"; row="6" id="message" placeholder= "Type your message here"></textarea>
-<button type="Submit"> Submit here</button>
-</div>
+
+    <header>
+        <h1>My Multimedia Gallery</h1>
+        <p>Welcome to my personal gallery!</p>
+    </header>
+
+    <section class="gallery-section">
+        <h2>My Favourite Images</h2>
+
+        <div class="gallery">
+            <div class="image-card">
+                <img src="image1.jpg" alt="Beautiful Nature">
+                <h3>Nature</h3>
+            </div>
+
+            <div class="image-card">
+                <img src="image2.jpg" alt="Beautiful Flowers">
+                <h3>Animal</h3>
+            </div>
+
+            <div class="image-card">
+                <img src="image3.jpg" alt="Cute Puppy">
+                <h3>Flower</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="media video-media">
+        <h2>My Favourite Audio 🎵</h2>
+        <p>Listen to my favourite music.</p>
+
+        <audio controls>
+            <source src="audio.mp3.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </section>
+
+    <section class="media">
+        <h2>My Favourite Video 🎬</h2>
+
+        <video controls>
+            <source src="C:\Users\OCECSD16\Desktop\Multimedia Gallery\135507-762107169_medium (1).mp4" type="video/mp4">
+            Your browser does not support video.
+            </video>
+        </div>
+        <!--Summary on the right-->
+        <div class="video-summary">
+            <h3>About This Video</h3>
+            <p>
+                This video shows people working in an office environment.
+                It displays workers using computers and laptops to perform their daily tasks. It teaches us that techology makes office work easier and helps people carry out their duties efficiently.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Barakat | My Personal Multimedia Gallery</p>
+    </footer>
+
 </body>
 </html>
