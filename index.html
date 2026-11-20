@@ -1,102 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Portfolio</title>
+    <title>My Project Folder</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Barakat Portfolio</h1>
-        <p>Student Learning Web Development</p>
-    </header>
+    <div class="container">
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <h1>Registration Form</h1>
 
-    <!-- Main Content -->
-    <main>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required>
 
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                My name is Barakat. I am a student learning web development.
-                I enjoy learning how to create websites using HTML and CSS.
-            </p>
-        </section>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Web Design</li>
-                <li>Basic Computer Skills</li>
-            </ul>
-        </section>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
 
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>My Projects</h2>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" placeholder="Enter your subject">
 
-            <article>
-                <h3>Online Store</h3>
-                <p>
-                    I created an online store webpage showing products,
-                    prices and images.
-                </p>
-            </article>
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" placeholder="Write your message here"></textarea>
 
-            <article>
-                <h3>Contact Form</h3>
-                <p>
-                    I created a contact form where users can enter their
-                    name, subject and message.
-                </p>
-            </article>
+            <button type="submit">Submit</button>
 
-            <article>
-                <h3>Study Website</h3>
-                <p>
-                    I created a study website containing subjects,
-                    study tips and learning materials.
-                </p>
-            </article>
-        </section>
+        </form>
 
-        <!-- Aside -->
-        <aside>
-            <h2>Additional Information</h2>
-            <p>
-                My goal is to improve my web development skills and
-                learn how to build more websites.
-            </p>
-        </aside>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: barakatadewale774@gmail.com</p>
-            <p>Phone: 07069330159</p>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Barakat's Portfolio. All rights reserved.</p>
-    </footer>
+    </div>
 
 </body>
 </html>
